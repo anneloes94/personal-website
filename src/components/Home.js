@@ -13,11 +13,7 @@ export default function Home() {
 
           <h3>Hello There</h3>
           <h1>
-              I am Anne.
-              <br/>
-              I am a full stack
-              <br/>
-              web developer based in Toronto.
+              I am Anne. <br/> I am a full stack <br/> web developer based in Toronto.
           </h1>
 
           <div className="home-content__buttons">
