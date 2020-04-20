@@ -32,17 +32,18 @@
 }
 
 .home-content h1 {
-  font-family: "librebaskerville-bold", serif;
+  font-family: "Barlow", serif;
   color: #FFFFFF;
-  font-size: 6rem;
+  font-size: 2.5rem;
   line-height: 1.35;
   margin-top: 0;
+  text-align: left;
 }
 
 .home-content__main {
   padding-right: 300px;
   position: relative;
-  background-color: #000;
+  background-color: #276FB3;
 }
 
 .home-content__buttons {
@@ -109,6 +110,15 @@
   transition: all 0.15s ease-in-out;
 }
 
+.homeBox {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  border-radius: 4;
+}
+
 .s-home {
   width: 100%;
   height: 100%;
@@ -118,7 +128,7 @@
   display: table;
 }
 
-.s-home .shadow-overlay {
+/* .s-home .shadow-overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -129,9 +139,9 @@
   background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
   background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.8) 100%);
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#cc000000', GradientType=0);
-}
+} */
 
-.s-home .overlay {
+/* .s-home .overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -139,7 +149,7 @@
   height: 100%;
   opacity: .5;
   background-color: #111111;
-}
+} */
 
 .no-js .s-home {
   background: #0D0A0B;

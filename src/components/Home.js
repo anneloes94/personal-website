@@ -2,21 +2,27 @@ import React from 'react';
 import './Home.css'
 
 export default function Home() {
+  const plainText = ""
+  const curlyLeft = '{'
+  const curlyRight = '}'
+  const tab = '  '
+
   return(
     <section id="home" className="s-home page-hero target-section" dataParallax="scroll" dataImageSrc="images/hero-bg.jpg">
       <div className="home-content">
 
         <div className="row home-content__main">
 
-          <h3>Hello There</h3>
-
-          <h1>
-              I am Anne.
-              <br/>
-              I am a full stack
-              <br/>
-              web developer based in Toronto.
-          </h1>
+          {/* <h3>Hello There</h3> */}
+          <div className="homeBox" >
+            <h1>
+              "full stack web developer" : {curlyLeft} <br/>
+              <pre>  "name": "Anneloes van Kesteren", </pre>
+              <pre>  "location": "Toronto, Canada", </pre>
+              <pre>  "tags": ["integrity", "Ruby on Rails", "NodeJS", "Python"]</pre>
+              {curlyRight}
+            </h1>
+          </div>
 
           <div className="home-content__buttons">
               <a href="#works" className="smoothscroll btn btn--stroke">
