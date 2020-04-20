@@ -32,7 +32,28 @@ export default function Home() {
           </div>
 
         </div>
-      </div>
+      </div> 
+
+      <ul className="home-social">
+          <li>
+              <a href="#"><i className="im im-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+          </li>
+          <li>
+              <a href="#"><i className="im im-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+          </li>
+          <li>
+              <a href="#"><i className="im im-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+          </li>
+          <li>
+              <a href="#"><i className="im im-behance" aria-hidden="true"></i><span>Behance</span></a>
+          </li>
+          <li>
+              <a href="#"><i className="im im-pinterest" aria-hidden="true"></i><span>Pinterest</span></a>
+          </li>
+      </ul> 
+
+
+
     </section>
   )
 }
