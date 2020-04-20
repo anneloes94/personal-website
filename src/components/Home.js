@@ -2,10 +2,8 @@ import React from 'react';
 import './Home.css'
 
 export default function Home() {
-  const plainText = ""
   const curlyLeft = '{'
   const curlyRight = '}'
-  const tab = '  '
 
   return(
     <section id="home" className="s-home page-hero target-section" dataParallax="scroll" dataImageSrc="images/hero-bg.jpg">
@@ -16,10 +14,10 @@ export default function Home() {
           {/* <h3>Hello There</h3> */}
           <div className="homeBox" >
             <h1>
-              "full stack web developer" : {curlyLeft} <br/>
-              <pre>  "name": "Anneloes van Kesteren", </pre>
-              <pre>  "location": "Toronto, Canada", </pre>
-              <pre>  "tags": ["integrity", "Ruby on Rails", "NodeJS", "Python"]</pre>
+              <pre></pre>"full stack web developer" : {curlyLeft} <br/>
+              <pre>  "name": "Anneloes van Kesteren",</pre>
+              <pre>  "location": "Toronto, Canada",</pre>
+              <pre>  "tags": ["integrity", "", ""]</pre>
               {curlyRight}
             </h1>
           </div>

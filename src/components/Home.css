@@ -44,6 +44,7 @@
   padding-right: 300px;
   position: relative;
   background-color: #276FB3;
+  max-height: 100v;
 }
 
 .home-content__buttons {
@@ -81,7 +82,7 @@
   font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: .3rem;
-  color: #FFFFFF;
+  color: #B37715;
   position: relative;
   display: inline-block;
   line-height: 3rem;
@@ -112,11 +113,13 @@
 
 .homeBox {
   background-color: rgba(0, 0, 0, 0.2);
-  color: white;
+  /* color: white; */
   display: flex;
   flex-direction: row;
-  padding: 1rem;
-  border-radius: 4;
+  padding: 0rem 4rem;
+  border-radius: 2rem;
+  max-width: 75vw;
+  justify-content: center;
 }
 
 .s-home {
