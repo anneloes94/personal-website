@@ -11,16 +11,14 @@ export default function Home() {
 
         <div className="row home-content__main">
 
-          {/* <h3>Hello There</h3> */}
-          <div className="homeBox" >
-            <h1>
-              <pre></pre>"full stack web developer" : {curlyLeft} <br/>
-              <pre>  "name": "Anneloes van Kesteren",</pre>
-              <pre>  "location": "Toronto, Canada",</pre>
-              <pre>  "tags": ["integrity", "", ""]</pre>
-              {curlyRight}
-            </h1>
-          </div>
+          <h3>Hello There</h3>
+          <h1>
+              I am Anne.
+              <br/>
+              I am a full stack
+              <br/>
+              web developer based in Toronto.
+          </h1>
 
           <div className="home-content__buttons">
               <a href="#works" className="smoothscroll btn btn--stroke">
