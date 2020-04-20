@@ -1,35 +1,40 @@
 import React from 'react';
+import './Home.css'
 
 export default function Home() {
   return(
-    <div class="home-content">
+    <section id="home" className="s-home page-hero target-section" dataParallax="scroll" dataImageSrc="images/hero-bg.jpg">
+      <div className="home-content">
 
-      <div class="row home-content__main">
+        <div className="row home-content__main">
 
-        <h3>Hello There</h3>
+          <h3>Hello There</h3>
 
-        <h1>
-            I am Anne.
-            I am a full stack
-            web developer based in Toronto.
-        </h1>
+          <h1>
+              I am Anne.
+              <br/>
+              I am a full stack
+              <br/>
+              web developer based in Toronto.
+          </h1>
 
-        <div class="home-content__buttons">
-            <a href="#works" class="smoothscroll btn btn--stroke">
-                Latest Projects
-            </a>
-            <a href="#about" class="smoothscroll btn btn--stroke">
-                More About Me
-            </a>
+          <div className="home-content__buttons">
+              <a href="#works" className="smoothscroll btn btn--stroke">
+                  Latest Projects
+              </a>
+              <a href="#about" className="smoothscroll btn btn--stroke">
+                  More About Me
+              </a>
+          </div>
+
+          <div className="home-content__scroll">
+              <a href="#about" className="scroll-link smoothscroll">
+                  <span>Scroll Down</span>
+              </a>
+          </div>
+
         </div>
-
-        <div class="home-content__scroll">
-            <a href="#about" class="scroll-link smoothscroll">
-                <span>Scroll Down</span>
-            </a>
-        </div>
-
       </div>
-    </div>
+    </section>
   )
 }
