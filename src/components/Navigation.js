@@ -7,7 +7,7 @@ export default function Navigation () {
     <header className="s-header">
 
       <div className="header-logo">
-        <a className="site-logo" href="index.html"><img src={logo} alt="Homepage" /></a>
+        <a className="site-logo" href="index.html"><span>anneloes.dev</span></a>
       </div>
 
       <nav className="header-nav-wrap">
