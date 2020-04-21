@@ -49,7 +49,7 @@ export default function About() {
         <div className="row about-content about-content--buttons">
 
             <div className="col-six tab-full left">
-                <a href="#0" className="btn btn--primary full-width">Download My Resume</a>
+                <a href="https://www.canva.com/design/DAD0-GoqOl0/bqqrBA_LLJ5VtJeKxggozg/view?utm_content=DAD0-GoqOl0&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton" target="_blank" rel="noopener noreferrer" className="btn btn--primary full-width">View My Resume</a>
             </div>
             <div className="col-six tab-full right">
                 <a href="#0" className="btn full-width">Hire Me Now</a>
