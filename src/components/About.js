@@ -9,7 +9,7 @@ export default function About() {
             <div className="col-full text-center">
                 <h3>About</h3>
                 <h1>More About Me</h1>
-                <p className="lead">Here comes an introduction of me/something in a nutshell.</p>
+                <p className="lead">The path that took me to web development was not a typical one. It came with quite a few hurdles and side paths.</p>
             </div>
         </div>
 
@@ -18,10 +18,10 @@ export default function About() {
             <div className="col-six tab-full left">
                 <h3>Hi there!</h3>
 
-                <p>Lorem ipsum Ut eiusmod ex magna sit dolor esse adipisicing minim ad cupidatat eu veniam nostrud mollit laboris sunt magna velit culpa consectetur nostrud consectetur labore sed do.</p>
+                <p>When I was in high school, I wanted to become a doctor to help people. In 2012, I started my Bachelor in Biomedical Sciences, but there was one problem: I didn't like biochemistry at all. I soon got discouraged in my studying, and I eventually switched to do a Bachelor's in International Development studies.</p>
 
                 <p>
-                Lorem ipsum Nisi officia Duis irure voluptate dolor commodo pariatur occaecat aliquip adipisicing voluptate Ut in qui ea sint occaecat in commodo in in in incididunt ut sunt in Ut Duis in ut ex qui anim cupidatat cupidatat ex in non dolore labore ea amet cillum ea qui dolor nisi sed velit mollit exercitation ex fugiat labore in deserunt culpa laborum culpa anim dolore laboris amet irure mollit proident velit fugiat aute ea elit magna consequat qui officia quis elit Duis dolor esse cupidatat tempor proident voluptate aliqua ex cupidatat do eiusmod veniam irure laborum ut magna nostrud dolore ullamco commodo elit sit magna aliqua laborum veniam officia dolor.	
+                Here I discovered what it was like to be passionate about what you do. 
                 </p>
             </div>
 
