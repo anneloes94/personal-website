@@ -123,12 +123,12 @@
     margin: 0;
 }
 
-.item-folio__cat {
+/* .item-folio__cat {
     color: rgba(255, 255, 255, 0.5);
     font-family: "montserrat-regular", sans-serif;
     font-size: 1.5rem;
     margin-bottom: 0;
-}
+} */
 
 .item-folio__caption {
     display: none;

@@ -1,7 +1,9 @@
 import React from 'react'
 import './Projects.css'
+import Project from "./Project"
 
 export default function Projects() {
+  const projects = [{}]
   return(
     <section id="works" className="s-works target-section">
 
@@ -16,9 +18,9 @@ export default function Projects() {
 
       <div className="row masonry-wrap">
         <div className="masonry">
-
-          
-          {/* !! */}
+          {}
+          <Project />
+          {/* ! PROJECTS ! */}
         </div> 
       </div>
 
