@@ -6,8 +6,8 @@ export default function Project(props) {
       <div className="item-folio">
 
         <div className="item-folio__thumb">
-          <a href={props.imgURL} className="thumb-link" title="{props.name}" dataSize="1050x700">
-            <img src={props.imgURL} 
+          <a href={props.image_URL} className="thumb-link" title="{props.name}" dataSize="1050x700">
+            <img src={props.image_URL} 
               srcset="images/portfolio/beetle.jpg 1x, images/portfolio/beetle@2x.jpg 2x" alt="project-img" />
             <span className="shadow-overlay"></span>
           </a>
@@ -19,7 +19,7 @@ export default function Project(props) {
           </h3>
         </div>
 
-        <a href={props.url} className="item-folio__project-link" title="Project link">
+        <a href={props.project_URL} className="item-folio__project-link" title="Project link">
           <i className="im im-link"></i>
         </a>
 

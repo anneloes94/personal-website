@@ -3,7 +3,12 @@ import './Projects.css'
 import Project from "./Project"
 
 export default function Projects() {
-  const projects = [{}]
+  const projects = [{
+    name: "Project name",
+    image_URL: "images/portfolio/projects/g-bicycle.jpg",
+    project_URL: "github.com/anneloes94",
+    description: "Yada yada yada lorem ipsum, this is a project"}
+  ]
   return(
     <section id="works" className="s-works target-section">
 
@@ -18,9 +23,16 @@ export default function Projects() {
 
       <div className="row masonry-wrap">
         <div className="masonry">
-          {}
-          <Project />
-          {/* ! PROJECTS ! */}
+          {projects.map(project => {
+            return(
+              <Project 
+                name={project.name}
+                image_URL={project.image_URL}
+                project_URL={project.project_URL}
+                description={project.description}
+              />
+            )
+          })}
         </div> 
       </div>
 
