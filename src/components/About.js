@@ -9,7 +9,7 @@ export default function About() {
             <div className="col-full text-center">
                 <h3>About</h3>
                 <h1>More About Me</h1>
-                <p className="lead">The path that took me to web development was not a typical one. It came with quite a few hurdles and side paths.</p>
+                <p className="lead">Let me take you on my journey towards web development. Spoiler alert: it is not a typical one.</p>
             </div>
         </div>
 
