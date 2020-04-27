@@ -30,7 +30,7 @@
 .s-header.sticky {
     position: fixed;
     top: 0;
-    background-color: #000000 !important;
+    background-color: #276FB3 !important;
     opacity: 0;
     visibility: hidden;
     z-index: 600;
@@ -73,7 +73,6 @@
     padding: 0;
     outline: 0;
     border: none;
-    width: 80px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }

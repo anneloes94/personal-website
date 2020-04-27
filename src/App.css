@@ -531,7 +531,7 @@
      left: 0;
      right: 0;
      bottom: 0;
-     background: #0F1215;
+     background: #276FB3;
      /* preloader fix colours! */
      z-index: 800;
      height: 100%;
@@ -551,7 +551,7 @@
      margin-left: -30px;
      margin-top: -30px;
      padding: 0;
-     background-color: #862121;
+     background-color: #B37715;
      border-radius: 100%;
      -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
      animation: sk-scaleout 1.0s infinite ease-in-out;
