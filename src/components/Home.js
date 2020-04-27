@@ -2,9 +2,6 @@ import React from 'react';
 import './Home.css'
 
 export default function Home() {
-  const curlyLeft = '{'
-  const curlyRight = '}'
-
   return(
     <section id="home" className="s-home page-hero target-section" dataParallax="scroll" dataImageSrc="images/hero-bg.jpg">
       <div className="home-content">

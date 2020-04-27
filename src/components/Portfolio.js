@@ -1,14 +1,24 @@
 import React from 'react'
-import './Projects.css'
+import './Portfolio.css'
 import Project from "./Project"
 
-export default function Projects() {
-  const projects = [{
-    name: "Project name",
-    image_URL: "images/portfolio/projects/g-bicycle.jpg",
-    project_URL: "github.com/anneloes94",
-    description: "Yada yada yada lorem ipsum, this is a project"}
+export default function Portfolio() {
+
+  const projects = [
+    {
+      name: "Project name",
+      image_URL: "images/portfolio/projects/g-bicycle.jpg",
+      project_URL: "github.com/anneloes94",
+      description: "Yada yada yada lorem ipsum, this is a project"
+    },
+    {
+      name: "Another project name",
+      image_URL: "images/portfolio/projects/g-bicycle.jpg",
+      project_URL: "github.com/anneloes94",
+      description: "Yada yada yada lorem ipsum, this is another project"
+    }
   ]
+
   return(
     <section id="works" className="s-works target-section">
 
