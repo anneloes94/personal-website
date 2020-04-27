@@ -532,6 +532,7 @@
      right: 0;
      bottom: 0;
      background: #0F1215;
+     /* preloader fix colours! */
      z-index: 800;
      height: 100%;
      width: 100%;
