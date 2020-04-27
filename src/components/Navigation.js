@@ -3,7 +3,7 @@ import './Navigation.css'
 
 export default function Navigation () {
   return(
-    <header className="s-header">
+    <header className="s-header sticky offset scrolling">
 
       <div className="header-logo">
         <a className="site-logo" href="index.html"><span>anneloes.dev</span></a>

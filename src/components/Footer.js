@@ -46,7 +46,7 @@ export default function Footer() {
           </div>
 
           <div className="go-top">
-            <a className="smoothscroll" title="Back to Top" href="#top"><i className="im im-arrow-up" ariaHidden="true"></i></a>
+            <a className="smoothscroll" title="Back to Top" href="#top"><i className="im im-arrow-up" aria-hidden="true"></i></a>
           </div>
         </div>
 
