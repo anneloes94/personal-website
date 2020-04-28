@@ -8,29 +8,17 @@ export default function Footer() {
         <div className="col-full">
 
           <div className="footer-logo">
-            <a className="footer-site-logo" href="#0"><img src="images/logo.png" alt="Homepage" /></a>
+            <a className="footer-site-logo" href="#"><span>anneloes.dev</span></a>
           </div>
 
           <ul className="footer-social">
             <li><a href="#0">
-              <i className="im im-facebook" ariaHidden="true"></i>
+              <i className="im im-linkedin" ariaHidden="true"></i>
               <span>LinkedIn</span>
             </a></li>
             <li><a href="#0">
-              <i className="im im-twitter" ariaHidden="true"></i>
+              <i className="im im-github" ariaHidden="true"></i>
               <span>Github</span>
-            </a></li>
-            <li><a href="#0">
-              <i className="im im-instagram" ariaHidden="true"></i>
-              <span>Instagram</span>
-            </a></li>
-            <li><a href="#0">
-              <i className="im im-behance" ariaHidden="true"></i>
-              <span>Behance</span>
-            </a></li>
-            <li><a href="#0">
-              <i className="im im-pinterest" ariaHidden="true"></i>
-              <span>Pinterest</span>
             </a></li>
           </ul>
                 
@@ -41,7 +29,7 @@ export default function Footer() {
 
         <div className="col-twelve">
           <div className="copyright">
-            <span>© Anneloes van Kesteren 2020</span> 
+            <span>2020 © Anneloes van Kesteren</span> 
             <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>	
           </div>
 
