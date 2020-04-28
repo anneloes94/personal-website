@@ -1,14 +1,15 @@
 import React from "react"
 
 export default function Project(props) {
+  const imgPath = require(props.image_URL)
   return (
     <div className="masonry__brick">
       <div className="item-folio">
 
         <div className="item-folio__thumb">
-          <a href={props.image_URL} className="thumb-link" title="{props.name}" dataSize="1050x700">
-            <img src={props.image_URL} 
-              srcset="images/portfolio/beetle.jpg 1x, images/portfolio/beetle@2x.jpg 2x" alt="project-img" />
+          <a href={props.image_URL} className="thumb-link" title={props.name} dataSize="1050x700">
+            <img src={imgPath} 
+              alt="project-img" />
             <span className="shadow-overlay"></span>
           </a>
         </div>

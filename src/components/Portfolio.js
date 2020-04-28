@@ -7,13 +7,13 @@ export default function Portfolio() {
   const projects = [
     {
       name: "Project name",
-      image_URL: "images/portfolio/projects/g-bicycle.jpg",
+      image_URL: "../images/projects/bicycle.jpg",
       project_URL: "github.com/anneloes94",
       description: "Yada yada yada lorem ipsum, this is a project"
     },
     {
       name: "Another project name",
-      image_URL: "images/portfolio/projects/g-bicycle.jpg",
+      image_URL: "../images/projects/bicycle.jpg",
       project_URL: "github.com/anneloes94",
       description: "Yada yada yada lorem ipsum, this is another project"
     }
