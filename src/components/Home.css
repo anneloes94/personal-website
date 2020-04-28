@@ -52,13 +52,13 @@
   vertical-align: bottom;
   padding-bottom: 19.2rem;
   position: relative;
-  background-color: #276FB3;
+  background-color: #2b92ef;
 }
 
 .home-content h3 {
   font-family: "montserrat-bold", sans-serif;
   font-size: 1.8rem;
-  color: #B37715;
+  color: #ffad1f;
   text-transform: uppercase;
   letter-spacing: .5rem;
   position: relative;
@@ -72,7 +72,7 @@
   content: "";
   width: 60px;
   height: 2px;
-  background-color: #B37715;
+  background-color: #ffad1f;
   margin-top: -1.5px;
   position: absolute;
   left: 0;
@@ -135,8 +135,8 @@
 }
 
 .home-content__scroll a::after {
-  border-bottom: 2px solid #922424;
-  border-right: 2px solid #922424;
+  border-bottom: 2px solid #ffad1f;
+  border-right: 2px solid #ffad1f;
   content: '';
   display: block;
   height: 8px;
@@ -210,7 +210,7 @@
 }
 
 .home-social span {
-  color: #af2b2b;
+  color: white;
   right: 3.6rem;
   font-size: 1.3rem;
   opacity: 0;

@@ -37,6 +37,8 @@
  *      ## blog page header
  *      ## blog content
  *      ## comments
+
+ Colour scheme: https://material.io/resources/color/#!/?view.left=0&view.right=0&primary.color=2b92ef&secondary.color=FFAD1F
  *
  * =================================================================== */
 
@@ -46,7 +48,7 @@
  *
  * ------------------------------------------------------------------- */
 
- /* @import url("iconic/css/iconmonstr-iconic-font.min.css"); */
+ @import url("./styles/css/iconmonstr-iconic-font.min.css");
  @import url("./styles/fonts.css");
  
  
