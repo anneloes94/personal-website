@@ -28,6 +28,8 @@ footer a:hover, footer a:focus {
 .footer-site-logo {
     display: block;
     width: 130px;
+    font-family: "tajawal", sans-serif;
+    font-size: medium;
 }
 
 .footer-social {

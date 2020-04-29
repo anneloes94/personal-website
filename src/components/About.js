@@ -1,6 +1,7 @@
 import React from "react";
-import "./About";
+import "./About.css";
 import profilePicture from "../images/website_profile.jpg";
+import windmillPicture from "../images/windmill.jpg";
 
 export default function About() {
   return (
@@ -10,7 +11,7 @@ export default function About() {
           <h3>About</h3>
           <h1>More About Me</h1>
           <p className="lead">
-            Becoming a web developer wasn't my childhood's dream at all. Let me
+            Becoming a web developer wasn't particularly my childhood's dream. Let me
             take you on my unconventional journey towards web development.
           </p>
         </div>
@@ -49,41 +50,22 @@ export default function About() {
             final moment of joy when things work out!
           </p>
 
+        </div>
+      </div>
+
+      <div className="row about-content">
+        <div className="col-six tab-full left">
           <p>
             In 2020, I moved to Toronto to attend a Web Development Bootcamp at
             Lighthouse Labs and pursue my career as a full-stack web developer.
             It has been a messy road, but I am so glad I have walked it!
           </p>
+          hello
         </div>
-      </div>
 
-      <div className="row about-content">
         <div className="col-six tab-full right">
-          <h3>I've Got Some skills.</h3>
-
-          <ul className="skill-bars">
-            <li>
-              <div className="progress percent90">
-                <span>90%</span>
-              </div>
-              <strong>HTML</strong>
-            </li>
-            <li>
-              <div className="progress percent85">
-                <span>85%</span>
-              </div>
-              <strong>CSS</strong>
-            </li>
-            <li>
-              <div className="progress percent70">
-                <span>70%</span>
-              </div>
-              <strong>JQuery</strong>
-            </li>
-          </ul>
+          <img src={windmillPicture} alt="profile-picture" />
         </div>
-
-        <div className="col-six tab-full left">hello</div>
       </div>
 
       <div className="row about-content about-content--buttons">
