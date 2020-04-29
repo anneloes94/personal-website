@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import profilePicture from "../images/website_profile.jpg";
-import windmillPicture from "../images/windmill.jpg";
+import laptopPicture from "../images/laptop.jpg"
 
 export default function About() {
   return (
@@ -39,7 +39,11 @@ export default function About() {
             discovered what it was like to be truly passionate about what you
             do</strong>.
           </p>
+        </div>
+      </div>
 
+      <div className="row about-content">
+        <div className="col-six tab-full left">
           <p>
             <strong>But something was still missing.</strong> I realized that my field of studies
             didn't allow me to be creative, to build things from scratch. During
@@ -50,21 +54,15 @@ export default function About() {
             final moment of joy when things work out</strong>!
           </p>
 
-        </div>
-      </div>
-
-      <div className="row about-content">
-        <div className="col-six tab-full left">
           <p>
             In 2020, I moved to Toronto to attend a Web Development Bootcamp at
             Lighthouse Labs and pursue my career as a full-stack web developer.
             It has been a messy road, but I am so glad I have walked it!
           </p>
-          hello
         </div>
 
         <div className="col-six tab-full right">
-          <img src={windmillPicture} alt="profile-picture" />
+          <img src={laptopPicture} alt="laptop-picture" />
         </div>
       </div>
 

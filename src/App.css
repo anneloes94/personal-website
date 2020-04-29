@@ -74,7 +74,7 @@
  
  body {
      background: #ffffff;
-     font-family: "librebaskerville-regular", serif;
+     font-family: "barlow", serif;
      font-size: 1.6rem;
      line-height: 1.875;
      color: #5f5f5f;
@@ -207,11 +207,13 @@
  }
  
  em, i {
-     font-family: "librebaskerville-italic", serif;
+     font-family: "barlow", serif;
+     font-style: italic;
  }
  
  strong, b {
-     font-family: "librebaskerville-bold", serif;
+     font-family: "barlow", serif;
+     font-weight: 700;
  }
  
  small {

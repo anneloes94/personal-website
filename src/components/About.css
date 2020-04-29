@@ -16,22 +16,35 @@
 
 .about-content .left {
   padding-right: 40px;
+  text-align: center;
 }
 
 .about-content .right {
   padding-left: 40px;
+  text-align: center;
+  background-size: 30px 30px;
 }
 
 .about-content img {
   border-radius: 50%;
-  margin-top: auto;
-  margin-bottom: auto;
+  text-align: center;
+  width: 75%;
 }
 
-.about-content strong {
-  font-family: "barlow", sans-serif;
-  font-weight: 700;
+.about-content .left img{
+  padding-bottom: 3rem;
 }
+
+.about-content p {
+  text-align: justify;
+}
+
+.about-content h3 {
+  text-align: justify;
+}
+
+
+
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -42,6 +55,11 @@
   .about-content .left {
     padding-right: 30px;
   }
+
+  .about-content .left img {
+    padding-bottom: 0;
+  }
+
   .about-content .right {
     padding-left: 30px;
   }
