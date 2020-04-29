@@ -19,7 +19,7 @@ export default function About() {
 
       <div className="row about-content">
         <div className="col-six tab-full left">
-          <img src={profilePicture} alt="profile-picture" />
+          <img src={profilePicture} alt="profile" />
         </div>
 
         <div className="col-six tab-full right">
@@ -62,7 +62,7 @@ export default function About() {
         </div>
 
         <div className="col-six tab-full right">
-          <img src={laptopPicture} alt="laptop-picture" />
+          <img src={laptopPicture} alt="laptop" />
         </div>
       </div>
 

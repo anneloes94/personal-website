@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="col-full">
 
           <div className="footer-logo">
-            <a className="footer-site-logo" href="#"><span>anneloes.dev</span></a>
+            <a className="footer-site-logo" href="#top"><span>anneloes.dev</span></a>
           </div>
 
           <ul className="footer-social">
