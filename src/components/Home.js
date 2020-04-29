@@ -3,7 +3,7 @@ import './Home.css'
 
 export default function Home() {
   return(
-    <section id="home" className="s-home page-hero target-section" dataParallax="scroll" dataImageSrc="images/hero-bg.jpg">
+    <section id="home" className="s-home page-hero target-section" data-parallax="scroll">
       <div className="home-content">
 
         <div className="row home-content__main">
@@ -33,19 +33,10 @@ export default function Home() {
 
       <ul className="home-social">
           <li>
-              <a href="#"><i className="im im-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+              <a href="https://www.linkedin.com/in/anneloes-van-kesteren/"><i className="im im-linkedin" ariaHidden="true"></i><span>LinkedIn</span></a>
           </li>
           <li>
-              <a href="#"><i className="im im-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
-          </li>
-          <li>
-              <a href="#"><i className="im im-instagram" aria-hidden="true"></i><span>Instagram</span></a>
-          </li>
-          <li>
-              <a href="#"><i className="im im-behance" aria-hidden="true"></i><span>Behance</span></a>
-          </li>
-          <li>
-              <a href="#"><i className="im im-pinterest" aria-hidden="true"></i><span>Pinterest</span></a>
+              <a href="https://github.com/anneloes94"><i className="im im-github" ariaHidden="true"></i><span>Github</span></a>
           </li>
       </ul> 
 

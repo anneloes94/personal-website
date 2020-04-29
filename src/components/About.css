@@ -1,90 +1,49 @@
- /* ===================================================================
+/* ===================================================================
   * # about - (_site-layout.scss)
   *
   * ------------------------------------------------------------------- */
- 
-  .s-about {
-    padding-top: 15rem;
-    padding-bottom: 9rem;
-    background-color: #FFFFFF;
-    position: relative;
+
+.s-about {
+  padding-top: 15rem;
+  padding-bottom: 9rem;
+  background-color: #ffffff;
+  position: relative;
 }
 
 .about-content {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 
 .about-content .left {
-    padding-right: 40px;
+  padding-right: 40px;
+  text-align: center;
 }
 
 .about-content .right {
-    padding-left: 40px;
+  padding-left: 40px;
+  text-align: center;
+  background-size: 30px 30px;
+}
+
+.about-content img {
+  border-radius: 50%;
+  text-align: center;
+  width: 75%;
+}
+
+.about-content .left img{
+  padding-bottom: 3rem;
+}
+
+.about-content p {
+  text-align: justify;
+}
+
+.about-content h3 {
+  text-align: justify;
 }
 
 
-/* ------------------------------------------------------------------- 
- * ## timeline - (_site-layout.scss) 
- * ------------------------------------------------------------------- */
-
-.timeline {
-    position: relative;
-    text-align: left;
-    margin-top: 3.6rem;
-}
-
-.timeline::before {
-    content: "";
-    display: block;
-    width: 1px;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.1);
-    position: absolute;
-    left: 2rem;
-    top: 0;
-}
-
-.timeline__block {
-    position: relative;
-    padding-left: 8rem;
-    min-height: 28.8rem;
-}
-
-.timeline__bullet {
-    background: #0D0A0B;
-    height: 1.5rem;
-    width: 1.5rem;
-    border-radius: 50%;
-    margin-left: -0.75rem;
-    box-shadow: 0 0 0 9px #E9E9E9;
-    position: absolute;
-    left: 2rem;
-    top: .3rem;
-}
-
-.timeline__header .timeline__timeframe {
-    font-size: 1.4rem;
-    line-height: 1.5;
-    text-transform: uppercase;
-    letter-spacing: .15rem;
-    color: rgba(0, 0, 0, 0.5);
-    margin-bottom: .9rem;
-    font-family: "montserrat-bold", sans-serif;
-}
-
-.timeline__header h3 {
-    line-height: 1.25;
-    margin: 0 0 .3rem 0;
-}
-
-.timeline__header h5 {
-    margin-top: 0;
-}
-
-.timeline__desc p {
-    margin: 0;
-    padding-bottom: 3rem;
-}
 
 
 /* ------------------------------------------------------------------- 
@@ -93,61 +52,67 @@
  * ------------------------------------------------------------------- */
 
 @media only screen and (max-width: 1000px) {
-    .about-content .left {
-        padding-right: 30px;
-    }
-    .about-content .right {
-        padding-left: 30px;
-    }
+  .about-content .left {
+    padding-right: 30px;
+  }
+
+  .about-content .left img {
+    padding-bottom: 0;
+  }
+
+  .about-content .right {
+    padding-left: 30px;
+  }
 }
 
 @media only screen and (max-width: 900px) {
-    .about-content .left {
-        padding-right: 20px;
-    }
-    .about-content .right {
-        padding-left: 20px;
-    }
+  .about-content .left {
+    padding-right: 20px;
+  }
+  .about-content .right {
+    padding-left: 20px;
+  }
 }
 
 @media only screen and (max-width: 800px) {
-    .about-content {
-        max-width: 600px;
-    }
-    .about-content .left {
-        padding-right: 15px;
-    }
-    .about-content .right {
-        padding-left: 15px;
-    }
-    .about-content .right .timeline {
-        margin-top: 0;
-    }
-    .about-content .left > h3, .about-content .right > h3 {
-        text-align: center;
-    }
+  .about-content {
+    max-width: 600px;
+  }
+  .about-content .left {
+    padding-right: 15px;
+  }
+  .about-content .right {
+    padding-left: 15px;
+  }
+  .about-content .right .timeline {
+    margin-top: 0;
+  }
+  .about-content .left > h3,
+  .about-content .right > h3 {
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    .about-content .left {
-        padding-right: 10px;
-    }
-    .about-content .right {
-        padding-left: 10px;
-    }
-    .timeline__block {
-        padding-left: 6rem;
-    }
+  .about-content .left {
+    padding-right: 10px;
+  }
+  .about-content .right {
+    padding-left: 10px;
+  }
+  .timeline__block {
+    padding-left: 6rem;
+  }
 }
 
 @media only screen and (max-width: 400px) {
-    .about-content .left {
-        padding-right: 0;
-    }
-    .about-content .right {
-        padding-left: 0;
-    }
-    .timeline__block {
-        padding-left: 5.5rem;
-    }
+  .about-content .left {
+    padding-right: 0;
+  }
+  .about-content .right {
+    padding-left: 0;
+  }
+  .timeline__block {
+    padding-left: 5.5rem;
+  }
 }

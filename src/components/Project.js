@@ -6,8 +6,9 @@ export default function Project(props) {
       <div className="item-folio">
 
         <div className="item-folio__thumb">
-          <a href={props.image_URL} className="thumb-link" title="{props.name}" dataSize="1050x700">
-            <img src={props.image_URL} 
+          <a href={props.image_URL} className="thumb-link" title={props.name} dataSize="1050x700">
+            {/* <img src={require(`${props.image_URL}`)}  */}
+            <img src="../images/projects/bicycle.jpg"
               srcset="images/portfolio/beetle.jpg 1x, images/portfolio/beetle@2x.jpg 2x" alt="project-img" />
             <span className="shadow-overlay"></span>
           </a>
