@@ -1,6 +1,8 @@
 import React from 'react'
 import './Portfolio.css'
 import Project from "./Project"
+import ImageGallery from 'react-image-gallery';
+
 
 export default function Portfolio() {
 
@@ -8,7 +10,7 @@ export default function Portfolio() {
     {
       id: 1,
       name: "Happy Brauer",
-      image_URL:
+      original:
         "https://raw.githubusercontent.com/anneloes94/Happy-Hour/master/docs/BarCrawlFeature5.png",
       project_URL: "https://github.com/anneloes94/Happy-Hour",
       description:
@@ -17,10 +19,10 @@ export default function Portfolio() {
     {
       id: 2,
       name: "Jungle on Rails",
-      image_URL: "https://raw.githubusercontent.com/anneloes94/jungle-rails/master/docs/Jungle_homepage.png",
+      original: "https://raw.githubusercontent.com/anneloes94/jungle-rails/master/docs/Jungle_homepage.png",
       project_URL: "https://github.com/anneloes94/jungle-rails",
       description:
-        "A mini e-commerce application built with Rails 4.2 for purposes of learning Rails by example. Jungle's home page displays products which a user can add to their cart and pay for (using the paying platform Stripe). An admin using HTTP basic authentication can add products and view the amount of products and categories.",
+        "<strong>Jungle on Rails</strong>: A mini e-commerce application built with Rails 4.2 for purposes of learning Rails by example. Jungle's home page displays products which a user can add to their cart and pay for (using the paying platform Stripe). An admin using HTTP basic authentication can add products and view the amount of products and categories.",
     },
   ];
 
@@ -34,6 +36,10 @@ export default function Portfolio() {
           
           <p className="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
         </div>
+      </div>
+
+      <div className="row">
+      <ImageGallery items={projects} showThumbnails={false} showPlayButton={false} showIndex={true} showFullscreenButton={false} />
       </div>
 
 
