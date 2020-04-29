@@ -6,7 +6,7 @@ export default function Navigation () {
     <header className="s-header sticky offset scrolling">
 
       <div className="header-logo">
-        <a className="site-logo" href="index.html"><span>anneloes.dev</span></a>
+        <a className="site-logo" href="#0"><span>anneloes.dev</span></a>
       </div>
 
       <nav className="header-nav-wrap">
