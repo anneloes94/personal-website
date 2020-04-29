@@ -1318,7 +1318,7 @@ input::-moz-focus-inner {
 .section-intro h3 {
   font-family: "montserrat-semibold", sans-serif;
   font-size: 2rem;
-  color: #862121;
+  color: rgb(0, 101, 188);
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   margin-top: 0;
