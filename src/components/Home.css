@@ -53,7 +53,9 @@
   padding-bottom: 19.2rem;
   position: relative;
   background-color: #2b92ef;
+  /* background-image: url("../images/coffee.jpg"); */
 }
+
 
 .home-content h3 {
   font-family: "montserrat-bold", sans-serif;

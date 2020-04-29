@@ -3,7 +3,7 @@ import './Home.css'
 
 export default function Home() {
   return(
-    <section id="home" className="s-home page-hero target-section" dataParallax="scroll" dataImageSrc="images/hero-bg.jpg">
+    <section id="home" className="s-home page-hero target-section" data-parallax="scroll">
       <div className="home-content">
 
         <div className="row home-content__main">
