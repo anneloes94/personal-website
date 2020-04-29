@@ -28,6 +28,11 @@
   margin-bottom: auto;
 }
 
+.about-content strong {
+  font-family: "barlow", sans-serif;
+  font-weight: 700;
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * about

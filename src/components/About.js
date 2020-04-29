@@ -35,19 +35,19 @@ export default function About() {
 
           <p>
             While discussing, reading, and writing about development issues such
-            as poverty, environmental degradation, and urbanization, I
+            as poverty, environmental degradation, and urbanization, <strong>I
             discovered what it was like to be truly passionate about what you
-            do.
+            do</strong>.
           </p>
 
           <p>
-            But something was still missing. I realized that my field of studies
+            <strong>But something was still missing.</strong> I realized that my field of studies
             didn't allow me to be creative, to build things from scratch. During
             my search for a Master's program, I stumbled upon an IT traineeship.
             My passion for coding was awakened, and I started learning HTML, CSS
-            and computer science essentials in Python from home. Going through
+            and computer science essentials in Python from home. <strong>Going through
             the well-known cycle of coding: enthusiasm, frustration, and that
-            final moment of joy when things work out!
+            final moment of joy when things work out</strong>!
           </p>
 
         </div>
