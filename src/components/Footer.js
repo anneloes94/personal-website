@@ -12,11 +12,11 @@ export default function Footer() {
           </div>
 
           <ul className="footer-social">
-            <li><a href="https://www.linkedin.com/in/anneloes-van-kesteren/" target="__blank">
+            <li><a href="https://www.linkedin.com/in/anneloes-van-kesteren/" target="_blank" rel="noopener noreferrer">
               <i className="im im-linkedin" ariaHidden="true"></i>
               <span>LinkedIn</span>
             </a></li>
-            <li><a href="https://github.com/anneloes94" target="__blank">
+            <li><a href="https://github.com/anneloes94" target="_blank" rel="noopener noreferrer" >
               <i className="im im-github" ariaHidden="true"></i>
               <span>Github</span>
             </a></li>

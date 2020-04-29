@@ -24,6 +24,14 @@
   background-color: #070606;
 }
 
+.contact__main img {
+  /* float: right; */
+  display: block;
+  margin: auto;
+  width: 50%;
+  
+}
+
 .s-contact .section-intro h1 {
   color: #ffffff;
 }
