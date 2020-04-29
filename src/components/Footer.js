@@ -8,15 +8,15 @@ export default function Footer() {
         <div className="col-full">
 
           <div className="footer-logo">
-            <a className="footer-site-logo" href="#"><span>anneloes.dev</span></a>
+            <a className="footer-site-logo" href="#top"><span>anneloes.dev</span></a>
           </div>
 
           <ul className="footer-social">
-            <li><a href="#0">
+            <li><a href="https://www.linkedin.com/in/anneloes-van-kesteren/" target="__blank">
               <i className="im im-linkedin" ariaHidden="true"></i>
               <span>LinkedIn</span>
             </a></li>
-            <li><a href="#0">
+            <li><a href="https://github.com/anneloes94" target="__blank">
               <i className="im im-github" ariaHidden="true"></i>
               <span>Github</span>
             </a></li>
