@@ -557,7 +557,7 @@ form,
 }
 
 .pace .pace-progress {
-  background: #862121;
+  background: #cf8402;
   position: fixed;
   z-index: 900;
   top: 0;
@@ -861,8 +861,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #0d0a0b;
-  border-color: #0d0a0b;
+  background: #cf8402;
+  border-color: #cf8402;
   color: #ffffff;
 }
 
@@ -876,8 +876,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-  background: #862121;
-  border-color: #862121;
+  background: #c77e00;
+  border-color: #c77e00;
 }
 
 /* button modifiers
