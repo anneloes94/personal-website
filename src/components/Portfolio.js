@@ -1,7 +1,7 @@
 import React from 'react'
 import './Portfolio.css'
-import Project from "./Project"
-import ImageGallery from 'react-image-gallery';
+import Slider from 'react-animated-slider';
+import 'react-animated-slider/build/horizontal.css';
 
 
 export default function Portfolio() {
@@ -9,8 +9,8 @@ export default function Portfolio() {
   const projects = [
     {
       id: 1,
-      name: "Happy Brauer",
-      original:
+      title: "Happy Brauer",
+      image_URL:
         "https://raw.githubusercontent.com/anneloes94/Happy-Hour/master/docs/BarCrawlFeature5.png",
       project_URL: "https://github.com/anneloes94/Happy-Hour",
       description:
@@ -18,11 +18,11 @@ export default function Portfolio() {
     },
     {
       id: 2,
-      name: "Jungle on Rails",
-      original: "https://raw.githubusercontent.com/anneloes94/jungle-rails/master/docs/Jungle_homepage.png",
+      title: "Jungle on Rails",
+      image_URL: "https://raw.githubusercontent.com/anneloes94/jungle-rails/master/docs/Jungle_homepage.png",
       project_URL: "https://github.com/anneloes94/jungle-rails",
       description:
-        "<strong>Jungle on Rails</strong>: A mini e-commerce application built with Rails 4.2 for purposes of learning Rails by example. Jungle's home page displays products which a user can add to their cart and pay for (using the paying platform Stripe). An admin using HTTP basic authentication can add products and view the amount of products and categories.",
+        "A mini e-commerce application built with Rails 4.2 for purposes of learning Rails by example. Jungle's home page displays products which a user can add to their cart and pay for (using the paying platform Stripe). An admin using HTTP basic authentication can add products and view the amount of products and categories.",
     },
   ];
 
@@ -39,25 +39,22 @@ export default function Portfolio() {
       </div>
 
       <div className="row">
-      <ImageGallery items={projects} showThumbnails={false} showPlayButton={false} showIndex={true} showFullscreenButton={false} />
+        <Slider className="slider-wrapper">
+          {projects.map((project, index) => (
+          <div
+            key={index}
+            className="slider-content"
+            style={{ background: `url('${project.image_URL}') no-repeat center center` }}
+          >
+            <div className="inner">
+              <h1>{project.title}</h1>
+              <p>{project.description}</p>
+              <button> <a href={project.project_URL} target="_blank">View me</a></button>
+            </div>
+          </div>
+        ))}
+		    </Slider>
       </div>
-
-
-
-      {/* <div className="row masonry-wrap">
-        <div className="masonry">
-          {projects.map(project => {
-            return(
-              <Project 
-                name={project.name}
-                image_URL={project.image_URL}
-                project_URL={project.project_URL}
-                description={project.description}
-              />
-            )
-          })}
-        </div> 
-      </div> */}
 
     </section>
   )

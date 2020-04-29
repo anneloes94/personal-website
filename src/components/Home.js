@@ -33,10 +33,10 @@ export default function Home() {
 
       <ul className="home-social">
           <li>
-              <a href="https://www.linkedin.com/in/anneloes-van-kesteren/"><i className="im im-linkedin" ariaHidden="true"></i><span>LinkedIn</span></a>
+              <a href="https://www.linkedin.com/in/anneloes-van-kesteren/" target="_blank"><i className="im im-linkedin" ariaHidden="true"></i><span>LinkedIn</span></a>
           </li>
           <li>
-              <a href="https://github.com/anneloes94"><i className="im im-github" ariaHidden="true"></i><span>Github</span></a>
+              <a href="https://github.com/anneloes94" target="_blank"><i className="im im-github" ariaHidden="true"></i><span>Github</span></a>
           </li>
       </ul> 
 
