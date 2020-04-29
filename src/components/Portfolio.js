@@ -66,7 +66,7 @@ export default function Portfolio() {
             <div className="inner">
               <h1>{project.title}</h1>
               <p>{project.description}</p>
-              <button> <a href={project.project_URL} target="_blank">View me</a></button>
+              <button> <a href={project.project_URL} target="_blank" rel="noopener noreferrer">View me</a></button>
             </div>
           </div>
         ))}

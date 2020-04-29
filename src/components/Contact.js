@@ -28,7 +28,7 @@ export default function Contact() {
 
           <h4 className="h06">LinkedIn</h4>
           <p>
-            <a href="https://linkedin.com/in/anneloes-van-kesteren" target="__blank">linkedin.com/in/anneloes-van-kesteren</a>
+            <a href="https://linkedin.com/in/anneloes-van-kesteren" target="_blank" rel="noopener noreferrer">linkedin.com/in/anneloes-van-kesteren</a>
             <br />
           </p>
         </div>
