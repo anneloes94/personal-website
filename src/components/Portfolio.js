@@ -43,6 +43,13 @@ export default function Portfolio() {
       description:
         "TinyApp is a full stack web application built with Node and Express that allows users to shorten long URLs (à la bit.ly). TinyApp allows users to shorten new URLs, see an overview of their created URLs, and edit them. The shortened URLS can be shared with users that do not have an account.",
     },
+    {
+      title: "TinDog",
+      image_URL: "https://raw.githubusercontent.com/anneloes94/tindog-mock/master/docs/Landing_laptop.png",
+      project_URL: "https://anneloes94.github.io/tindog-mock/",
+      description: 
+        "Tindog is dating webpage for dogs built with HTML, CSS and Bootstrap."
+    }
   ];
 
   return(
