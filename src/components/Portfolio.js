@@ -57,7 +57,7 @@ export default function Portfolio() {
       title: "Drum kit",
       image_URL:
         "https://raw.githubusercontent.com/anneloes94/drum-kit/master/docs/screenshot.png",
-      project_URL: "https://github.com/anneloes94/drum-kit",
+      project_URL: "https://anneloes94.github.io/drum-kit/",
       description:
         "A static webpage that provides a drumkit that can be played by either clicking the instrument or pressing a key. It is built with HTML, CSS and JavaScript.",
     },
