@@ -45,6 +45,10 @@ export default function About() {
           </p>
         </div>
       </div>
+      <div className="row about-content">
+        <a frameborder="0" data-theme="light" data-layers="1,2,3,4" data-stack-embed="true" href="https://embed.stackshare.io/stacks/embed/fef17429f5c15e43a545c26d1d6c98"></a>
+        
+      </div>
 
       <div className="row about-content">
         <div className="col-six tab-full left">
