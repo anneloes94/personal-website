@@ -45,7 +45,7 @@ export default function About() {
           </p>
         </div>
       </div>
-
+      
       <div className="row about-content">
         <div className="col-six tab-full left">
           <p>
