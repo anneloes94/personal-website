@@ -17,7 +17,9 @@ export default function Stack() {
 
       <div className="row stack-content">
         <div className="row about-content">
-          <a frameborder="0" data-theme="light" data-layers="1,2,3" data-stack-embed="true" href="https://embed.stackshare.io/stacks/embed/5c5c3fb28f48372321fd512ac92a03"></a>
+          <a frameborder="0" data-theme="light" data-layers="1,2,3" data-stack-embed="true" href="https://embed.stackshare.io/stacks/embed/5c5c3fb28f48372321fd512ac92a03" aria-hidden="true">
+            
+          </a>
         </div>
       </div>
     </section>
