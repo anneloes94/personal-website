@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Stack() {
   return(
-    <section id="blog" className="s-blog target-section">
+    <section id="stack" className="s-blog target-section">
 
       <div className="row narrow section-intro has-bottom-sep">
           <div className="col-full">

@@ -23,6 +23,11 @@ export default function Navigation() {
             </a>
           </li>
           <li>
+            <a className="smoothscroll" href="#stack" title="stack">
+              Stack
+            </a>
+          </li>
+          <li>
             <a className="smoothscroll" href="#works" title="works">
               Projects
             </a>
