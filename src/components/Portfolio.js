@@ -6,6 +6,25 @@ import "react-animated-slider/build/horizontal.css";
 export default function Portfolio() {
   const projects = [
     {
+      title: "Newsletter signup page",
+      image_URL: "https://raw.githubusercontent.com/anneloes94/newsletter-signup/master/docs/screenshot_home.png",
+      project_URL: "https://example-newsletter.herokuapp.com/",
+      description: "This Express app is meant as part of any webpage requiring a signup page for newsletters. It sends the signup data to Mailchimp's api and registers it in your mailing list."
+
+    },
+    {
+      title: "To do list",
+      image_URL: "https://raw.githubusercontent.com/anneloes94/To-Do-list/master/docs/Screenshot.png",
+      project_URL: "https://anneloes94-to-dos.herokuapp.com/",
+      description: "This Express app shows you your to do's for the day. The page is rendered with EJS."
+    },
+    {
+      title: "Scrabble",
+      image_URL: "https://raw.githubusercontent.com/anneloes94/scrabble/master/docs/Screenshot_terminal.png",
+      project_URL: "https://github.com/anneloes94/scrabble",
+      description: "This game of Scrabble can be played in your terminal. A hand of letters gets dealt to you, from which you can try to make words worth the highest amount of points. Afterwards you can decide whether you would like to replay the hand, get a new hand or end the game."
+    },
+    {
       title: "Happy Brauer",
       image_URL:
         "https://raw.githubusercontent.com/anneloes94/Happy-Hour/master/docs/BarCrawlFeature5.png",
@@ -98,7 +117,12 @@ export default function Portfolio() {
                 background: `url('${project.image_URL}') no-repeat center center`,
               }}
             >
-              <div className="inner">
+              <div className="inner"
+              style={{
+                backgroundColor: `rgb(180, 180, 180, 0.2)`,
+                paddingTop: `20px`
+              }}
+              >
                 <h1>{project.title}</h1>
                 <p>{project.description}</p>
                 <button>
