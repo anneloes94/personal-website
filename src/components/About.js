@@ -11,7 +11,6 @@ export default function About() {
           <h3>About</h3>
           <h1>More About Me</h1>
           <p className="lead">
-            Becoming a web developer wasn't particularly my childhood's dream.
             Let me take you on my unconventional journey towards web
             development.
           </p>

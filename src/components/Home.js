@@ -12,7 +12,7 @@ export default function Home() {
         <div className="row home-content__main">
           <h3>Hello There</h3>
           <h1>
-            I am Anne. <br /> I am a full stack <br /> web developer based in
+            I am Anne. I am a full stack web developer based in
             Toronto.
           </h1>
 
