@@ -1310,16 +1310,16 @@ input::-moz-focus-inner {
 }
 
 .section-intro h1 {
-  font-family: "librebaskerville-bold", serif;
+  font-family: "montserrat-semibold", sans-serif;
   font-size: 4.8rem;
   line-height: 1.375;
   margin-top: 0;
+  color: rgb(0, 101, 188);
 }
 
 .section-intro h3 {
   font-family: "montserrat-semibold", sans-serif;
   font-size: 2rem;
-  color: rgb(0, 101, 188);
   text-transform: uppercase;
   letter-spacing: 0.15rem;
   margin-top: 0;

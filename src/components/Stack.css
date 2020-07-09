@@ -1,3 +1,11 @@
+#stack a{
+  color: #0065bc;
+}
+
+#stack a:hover{
+  color: #191a3f;
+}
+
 .s-stack {
   padding-top: 15rem;
   padding-bottom: 9.6rem;
