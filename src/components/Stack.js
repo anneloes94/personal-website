@@ -7,11 +7,8 @@ export default function Stack() {
 
       <div className="row narrow section-intro has-bottom-sep">
           <div className="col-full">
-              <h3>Stack</h3>
-              <h1>This is my tech stack.</h1>
+              <h1>Stack</h1>
               <p className="lead">I am most comfortable working in JavaScript (PERN stack) and JS frameworks and libraries. I also work with PHP, Python, and Ruby on Rails. Most importantly, I value having a varied experience in different technologies and love to shake things up! </p>
-              <p>
-              <a href="https://stackshare.io/anneloes94/my-stack#stack" target="_blank" rel="noopener noreferrer">Check out my complete tech stack here.</a></p>
           </div>
       </div>
 

@@ -9,14 +9,13 @@ export default function Contact() {
 
       <div className="row narrow section-intro">
         <div className="col-full">
-          <h3>Contact</h3>
-          <h1>Say Hello.</h1>
+          <h1>Contact</h1>
 
           <p className="lead">
-            If you are looking for a junior web developer, I would love to
-            discuss opportunities! If you are looking for someone to work on a
+            If you are looking to hire a web developer, I would love to
+            discuss opportunities! Please reach out to me if you are looking for someone to work on a
             project with, or you really just want to talk about your favourite
-            things in life, I would be happy to connect! You can find me on
+            things in life, I would be happy to connect. You can find me on
             LinkedIn or send me an email.
           </p>
         </div>

@@ -8,8 +8,7 @@ export default function About() {
     <section id="about" className="s-about target-section">
       <div className="row narrow section-intro has-bottom-sep">
         <div className="col-full text-center">
-          <h3>About</h3>
-          <h1>More About Me</h1>
+          <h1>About</h1>
           <p className="lead">
             Let me take you on my unconventional journey towards web
             development.

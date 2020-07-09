@@ -102,8 +102,10 @@ export default function Portfolio() {
     <section id="works" className="s-works target-section">
       <div className="row narrow section-intro has-bottom-sep">
         <div className="col-full">
-          <h3>Portfolio</h3>
-          <h1>See My Latest Projects.</h1>
+          <h1>Portfolio</h1>
+          <p className="lead">
+            See my latest projects below.
+          </p>
         </div>
       </div>
 
